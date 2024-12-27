@@ -67,5 +67,32 @@ a{
 }
 /* common button */
 .order_now{
-  color
+  color:var(--light-black);
+  background: var(--yellow);
+  background-color: var(--yellow);
+  padding:15px 38px ;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-family:var(--oswald-font) ;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+
+}
+.order_now:hover,
+.order_now:focus{
+  color: var(--white);
+  background: transparent;
+  background-color: var(--white);
+}
+.btn_red{
+  color: var(--white);
+  background:var(--light-red);
+  border-color: var(--light-red);
+}
+.btn_red:hover,
+.btn_red:focus{
+  color: var(--light-red);
+  background:transparent;
+  border-color: var(--light-red);
 }
